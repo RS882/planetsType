@@ -14,11 +14,11 @@ public class Main {
             getTypeOfPlanet(indexOfPl+1);
             System.out.printf("Radius : %,.2fkm%n", planet.getRadius());
             System.out.printf("Mass : %.4f Earths%n", planet.getMass());
+            System.out.printf("g : %.4f m/s^2%n", planet.getG());
 
         } else {
             System.out.println(" Number of planet entered incorrectly");
         }
-
 
         sc.close();
     }
@@ -45,7 +45,7 @@ public class Main {
 
 }
 
-//   A lifeless rock, a habitable planet, a gas giant, or an ice planet.
+
 //    Классификация планет
 //
 //    Создать перечисление "Планеты солнечной системы", перечислить в
