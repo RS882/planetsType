@@ -12,6 +12,8 @@ public class Main {
 
             System.out.printf("You choose %s%n", planet.getName());
             getTypeOfPlanet(indexOfPl+1);
+            System.out.printf("Radius : %,.2fkm%n", planet.getRadius());
+            System.out.printf("Mass : %.4f Earths%n", planet.getMass());
 
         } else {
             System.out.println(" Number of planet entered incorrectly");
